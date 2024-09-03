@@ -69,7 +69,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16.x
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4.1.7
         with:
           name: verdaccio-artifact
       - name: untar packages
@@ -130,7 +130,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16.x
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4.1.7
         with:
           name: verdaccio-artifact
       - name: untar packages
